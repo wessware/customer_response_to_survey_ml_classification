@@ -1,0 +1,27 @@
+Each row of this set relates to a customer's interactions during one marketing campaign "this campaign". 
+This is historical data, so for each one we know whether the customer ended up taking out a new contract 
+(that is, responded positively to the campaign). Each customer may also have been reached by a previous marketing campaign, 
+and if so then the details of that contact are recorded under the features with "previous_campaign" in their name.
+
+Input variables:
+ID: unique identifier for this record
+town: home town for customer
+country: country for customer's home address
+age: customer's age
+job: customer's job
+married: customer's marital status
+education: customer's highest educational qualification level obtained
+arrears?: has the customer failed to pay a recent bill?
+current_balance: current amount in customer's landline account in pounds (could be negative)
+housing: is the customer a homeowner?
+has_tv_package: has the customer got an additional TV and data package on their landline
+last_contact: type of communication used for previous call to customer
+conn_tr: connection type grouping ID (related to the connection for their landline)
+last_contact_this_campaign_month: last contact month of year
+last_contact_this_campaign_day: last contact day of the month
+this_campaign: number of contacts performed during this campaign and for this client
+days_since_last_contact_previous_campaign: number of days that passed by after the client was last contacted from a previous campaign 
+(-1 means the client has never been contacted before)
+contacted_during_previous_campaign: number of contacts performed before this campaign and for this client
+outcome_previous_campaign: outcome of the previous marketing campaign
+new_contract_this_campaign: has the client taken out a new contract? [target variable]
