@@ -33,7 +33,7 @@ days_since_last_contact_previous_campaign: number of days that passed by after t
 contacted_during_previous_campaign: number of contacts performed before this campaign and for this client
 outcome_previous_campaign: outcome of the previous marketing campaign
 
-The Target Variable
+## The Target Variable
 new_contract_this_campaign: has the client taken out a new contract?
 
 ## Modelling
@@ -55,9 +55,9 @@ An Artificial Nueral Network classification model was as well fitted and trained
 
 ## Tuning and Evaluation
 
-Each fitted and trained model was tuned using different parameters and hyperparameters in so to give the score possible.
+Each fitted and trained model was tuned using different parameters and hyperparameters in so to give best the score possible.
 
-### Evaluation Metrics
+## Evaluation Metrics
 
 ### rmse [best performing to least performing]
 
